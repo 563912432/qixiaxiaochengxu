@@ -1,0 +1,10 @@
+[app]
+debug = true
+trace = false
+[database]
+hostname = 39.104.105.33
+database = mjtt
+username = mjtt
+password = 000000
+hostport = 3306
+prefix = mjtt_

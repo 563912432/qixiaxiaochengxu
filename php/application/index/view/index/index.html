@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="{$site.description}"/>
+  <meta name="Keywords" content="{$site.keywords}"/>
+  <title>{$site.name}</title>
+  <link rel="icon" href="__ASSETS__img/logo.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="__ASSETS__img/logo.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="__ASSETS__css/common.css">
+  <link rel="stylesheet" href="__ASSETS__static/swiper-4.4.1/dist/css/swiper.min.css">
+  <link rel="stylesheet" href="__LIBS__bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="__ASSETS__static/fullPage.js-master/dist/fullpage.min.css">
+  <link rel="stylesheet" href="__ASSETS__css/index.css">
+</head>
+<body>
+<nav class="navbar navbar-default header">
+  <div class="w-1200 container-fluid position-relative header-container">
+    <!--mobile的显示样式-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed navbar-button" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar icon-bar-line"></span>
+        <span class="icon-bar icon-bar-line"></span>
+        <span class="icon-bar icon-bar-line"></span>
+      </button>
+      <!--logo-->
+      <a class="navbar-brand" href="/">
+        <div class="header-logo">
+          <!--<div class="logo"></div>-->
+        </div>
+        <div class="visible-xs-block ml-50">
+          <span class="mobile-logo-title">美景听听-全球景点语音讲解APP</span>
+        </div>
+      </a>
+    </div>
+    <!--pc布局头中间-->
+    <div class="navbar-c collapse navbar-collapse bg-white" id="bs-example-navbar-collapse-1">
+      <ul id="myMenu" class="nav navbar-nav">
+        <li class="nav-li" href="#firstPage">
+          <a href="#firstPage">
+            <div class="tab-text tab-text-active">首页</div>
+            <span class="tab-indicator"></span>
+          </a>
+        </li>
+        <li class="nav-li">
+          <a href="#secondPage">
+            <div class="tab-text" data-index="1">APP特色</div>
+            <span class="tab-indicator display-none"></span>
+          </a>
+        </li>
+        <li class="nav-li">
+          <a href="#thirdPage">
+            <div class="tab-text" data-index="1">AI识别</div>
+            <span class="tab-indicator display-none"></span>
+          </a>
+        </li>
+        <li class="nav-li">
+          <a href="#fourthPage">
+            <div class="tab-text" data-index="1">原创IP</div>
+            <span class="tab-indicator display-none"></span>
+          </a>
+        </li>
+        <li class="nav-li">
+          <a href="#fifthPage">
+            <div class="tab-text" data-index="1">合作加入</div>
+            <span class="tab-indicator display-none"></span>
+          </a>
+        </li>
+        <li class="nav-li">
+          <a href="#lastPage">
+            <div class="tab-text" data-index="1">关于我们</div>
+            <span class="tab-indicator display-none"></span>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right visible-sm-block visible-md-block visible-lg-block">
+        <li class="header-right"></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  <!--tip导航一-->
+  <div class="navigation-parent">
+    <div class="navigation w-1200 flex align-items-center justify-content-center">
+      <!--item1魔法行程单-->
+      <div class="navigation-item flex-1 flex" style="margin-right: 65px" id="magic-road" data-url="{$site.mfxc_url}">
+        <!--img-->
+        <img src="{$travel['image']}" alt="魔法行程单">
+        <!--text-->
+        <div class="navigation-text flex flex-column justify-content-center">
+          <div class="navigation-text-title">魔法行程单</div>
+          <div class="navigation-text-detail">让读书配上行程单</div>
+        </div>
+      </div>
+      <!--item2主播入口-->
+      <div class="navigation-item flex-1 flex" id="host-entry" data-url="{$site.zb_entry}">
+        <!--img-->
+        <img src="{$anchor['image']}" alt="主播入口">
+        <!--text-->
+        <div class="navigation-text flex flex-column justify-content-center">
+          <div class="navigation-text-title">主播入口</div>
+          <div class="navigation-text-detail">快来加入美景听听主播大家庭</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--正文-->
+<div id="fullpage">
+  <!--美景听听-->
+  <div class="section section1">
+    <!--PC 端-->
+    <div class="w-1200 section1-container container-fluid">
+      <div class="row">
+        <!--左图片-->
+        <div class="col-xs-7 col-sm-3 col-md-3">
+          <div class="section1-phone">
+            <div class="section1-phone-container position-relative">
+              <div class="section1-phone-head"></div>
+              <div class="section1-phone-bg">
+                <video class="section1-phone-video" id="video-about" src="{$aboutus['video']}"  poster="{$aboutus['image']}" playsinline
+                       x5-video-player-type="h5" x5-video-player-fullscreen="true" type="video/mp4" controls="controls"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--中二维码图片-->
+        <div class="section1-middle col-xs-12 col-sm-4 col-md-4 visible-sm-block visible-md-block visible-lg-block">
+          <div class="flex right-scan">
+            <!--左-->
+            <div class="flex-1 right-scan-p">
+              <img src="{$site.app_ewm}" alt="" class="mb-10">
+              <div class="conduction-text right-scan-text text-center col-000 font-letter-mobile">app下载</div>
+            </div>
+            <!--右-->
+            <div class="flex-1 right-scan-p">
+              <img src="{$site.wxapp_ewm}" alt="" class="mb-10">
+              <div class="conduction-text right-scan-text text-center col-000 font-letter-mobile">关注小程序</div>
+            </div>
+          </div>
+        </div>
+        <!--右描述-->
+        <div class="col-xs-5 col-sm-5 col-md-5 text-right section1-mobile-text">
+          <div class="title section1-title mb-20">美景听听</div>
+          <div class="conduction-text mb-5 section1-conduction-text">覆盖全球80多个国家</div>
+          <div class="conduction-text mb-5 section1-conduction-text">10万多个景点</div>
+          <div class="conduction-text mb-5 section1-conduction-text">下载量最多</div>
+          <div class="conduction-text mb-5 section1-conduction-text visible-sm-block visible-md-block visible-lg-block">活跃量最多的景点语音讲解App</div>
+          <div class="visible-xs-block">
+            <div class="conduction-text mb-5 section1-conduction-text">活跃量最多的</div>
+            <div class="conduction-text section1-conduction-text">景点语音讲解App</div>
+          </div>
+          <!--mobile端的二维码显示-->
+          <div class="right-scan visible-xs-block">
+            <div class="right-scan-p mb-20">
+              <img src="{$site.app_ewm}" alt="">
+              <div class="conduction-text right-scan-text text-center col-333 font-letter-mobile">app下载</div>
+            </div>
+            <!--右-->
+            <div class="right-scan-p">
+              <img src="{$site.wxapp_ewm}" alt="">
+              <div class="conduction-text right-scan-text text-center col-333 font-letter-mobile">关注小程序</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--mobile美景听听四个字-->
+    <div class="visible-xs-block" style="position: absolute;right: 20px;top: 70px;">
+      <span class="title col-fff">美景听听</span>
+    </div>
+  </div>
+  <!--app 特色-->
+  <div class="section section2">
+    <div class="w-1200 section2-pc-container container-fluid">
+      <div class="title select2-title">App特色</div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 flex flex-column align-items-center justify-content-center">
+          <img class="section2-img" src="{$appfeature[0]['image']}" alt="">
+          <div class="title2 section2-title2"><span class="font-letter">AI</span>图像识别技术</div>
+          <div class="section2-text conduction-text text-center">0.1秒识别博物馆任意作品， 自动匹配相关音频</div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 flex flex-column align-items-center justify-content-center">
+          <img class="section2-img" src="{$appfeature[1]['image']}" alt="">
+          <div class="title2 section2-title2">离线下载</div>
+          <div class="section2-text conduction-text text-center">无信号、无<span class="font-letter">WiFi</span>，也可以在景区内听讲解
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 flex flex-column align-items-center justify-content-center">
+          <img class="section2-img" src="{$appfeature[2]['image']}" alt="">
+          <div class="title2 section2-title2">3D地图指引</div>
+          <div class="section2-text conduction-text text-center">著名景点作品一眼锁定，品质游览更快捷</div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 flex flex-column align-items-center justify-content-center">
+          <img class="section2-img" src="{$appfeature[3]['image']}" alt="">
+          <div class="title2 section2-title2"><span class="font-letter">GPS+</span>微定位</div>
+          <div class="section2-text conduction-text text-center">智能定位自动播放，解放双手，即走即听</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--AI识别-->
+  <div class="section">
+    <div class="w-1200 margin-auto container-fluid position-relative">
+      <div class="row">
+        <!--left-->
+        <div class="col-xs-12 col-sm-8 col-md-8">
+          <div class="title mb-20">AI图<span class="font-letter1">像</span>识别</div>
+          <div class="conduction-text">
+            博物馆作品种类繁多，你却知其然，不知其所以然，美景听听自主研发，独家出品的图像识别技术，只需一键扫描，0.1秒即可识别眼前作品，自动匹配相关语音讲解，让你听懂这个世界。
+          </div>
+        </div>
+        <!--right-->
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="section1-phone section3-phone">
+            <div class="section1-phone-container section3-phone-container position-relative">
+              <div class="section1-phone-head section3-phone-head section5-phone-head"></div>
+              <div class="section1-phone-bg section3-phone-bg">
+                <img class="section3-phone-img" src="{$site.ai_video}"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--PC端 画廊-->
+      <div class="section3-gallery visible-md-block visible-lg-block">
+        <!--上-->
+        <div class="section3-gallery-up">
+          {volist name='minghua' id="vo" offset="0" length='6'}
+          <img src="{$vo.image}" alt="">
+          {/volist}
+        </div>
+        <!--下-->
+        <div class="section3-gallery-down">
+          {volist name="minghua" id="vo" offset="6" length="7"}
+          <img src="{$vo.image}" alt="">
+          {/volist}
+        </div>
+      </div>
+      <!--mobile端 画廊-->
+      <div class="section3-gallery visible-xs-block visible-sm-block">
+        <!--上-->
+        <div class="section3-gallery-up">
+          {volist name='minghua' id="vo" offset="0" length='4'}
+          <img src="{$vo.image}" alt="">
+          {/volist}
+        </div>
+        <!--下-->
+        <div class="section3-gallery-down">
+          {volist name="minghua" id="vo" offset="4" length="5"}
+          <img src="{$vo.image}" alt="">
+          {/volist}
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--原创IP-->
+  <div class="section section4">
+    <div class="w-1200 margin-auto container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-8">
+          <div class="title section4-title mb-20">原创IP</div>
+          <div class="conduction-text1 mb-10">原创历史大魔王系列</div>
+          <div class="conduction-text">
+            6000年的世界文明怎么可以只用枯燥的文字来讲述？美景听听原创ip，每个国家都有自己的人物设定和卡通形象，幽默风趣的漫画、活灵活现的动画照样讲述人物经典、朝代更迭的历史岁月。
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 visible-sm-block visible-md-block visible-lg-block">
+          <div class="flex flex-column align-items-center section4-img-p">
+            <img src="{$site.gzh_ewm}" alt="" class="section4-img mb-10">
+            <div class="conduction-text">微信公众号</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        {volist name="create" id="vo" offset="0" length='3'}
+        <div class="section4-gallery col-xs-12 col-sm-4 col-md-4 position-relative">
+          <div class="section4-gallery-p">
+            <img class="section4-gallery-img" src="{$vo.image}" alt="">
+            <div class="section4-gallery-play-p">
+              <img class="section4-gallery-play create-video" id="create-video-{$key}" data-index="{$key}" data-video="{$vo.video}" src="__ASSETS__img/imagetwo/play.png" alt="">
+            </div>
+          </div>
+        </div>
+        {/volist}
+      </div>
+      <div class="conduction-text2">
+        关注微信公众号，查看更多原创动漫
+      </div>
+      <div class="col-xs-12 visible-xs-block">
+        <div class="flex flex-column align-items-center section4-img-p section4-img-p-copy">
+          <img src="{$site.gzh_ewm}" alt="" class="section4-img mb-10">
+          <div class="conduction-text mb-5">微信公众号</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--合作加入-->
+  <div class="section section5">
+    <div class="w-1200 margin-auto container-fluid">
+      <div class="title section5-title">合作加入</div>
+      <div class="row">
+        <!--导游领队-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 flex flex-column align-items-center justify-content-center">
+          <img class="section5-img" src="__ASSETS__img/imagetwo/demo6.png" alt="">
+          <div class="conduction-text1 section5-title1 col-333">导游领队</div>
+          <div class="conduction-text section5-text">
+            <span class="visible-sm-block visible-md-block visible-lg-block">读了万卷书，行了万里路的你，将专业讲解分享给更多的旅游爱好者</span>
+            <span class="visible-xs-block">读了万卷书，行了万里路的你，<br>将专业讲解分享给更多的旅游爱好者</span>
+          </div>
+        </div>
+        <!--电台达人-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 flex flex-column align-items-center justify-content-center">
+          <img class="section5-img" src="__ASSETS__img/imagetwo/demo7.png" alt="">
+          <div class="conduction-text1 section5-title1 col-333">电台达人</div>
+          <div class="conduction-text section5-text">
+            <span class="visible-sm-block visible-md-block visible-lg-block">用声音分享自己的旅行体验，只要敢于放声，乐于分享，你就是我们要的<span class="font-letter">FM</span>听听达人</span>
+            <span class="visible-xs-block">用声音分享自己的旅行体验，<br>只要敢于放声，乐于分享，<br>你就是我们要的<span class="font-letter">FM</span>听听达人</span>
+          </div>
+          <div class="conduction-text section5-text-red section5-mobile-text">
+            <a href="{$site.zb_entry}" target="_blank" class="section5-mobile-a">点击此处进入主播入口</a>
+          </div>
+        </div>
+        <!--商务合作-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 flex flex-column align-items-center justify-content-center">
+          <img class="section5-img" src="__ASSETS__img/imagetwo/demo8.png" alt="">
+          <div class="conduction-text1 section5-title1 col-333">商务合作</div>
+          <div class="conduction-text section5-text">
+            同业、异业合作均可，只要有兴趣，我们就会成为最佳的合作伙伴！
+          </div>
+          <div class="conduction-text mb-5 section5-text-red section5-email">
+            <div>邮箱：</div>
+            <div class="col-red">{$site.work_email}</div>
+          </div>
+        </div>
+        <!--景区、博物馆类-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 flex flex-column align-items-center justify-content-center">
+          <img class="section5-img" src="__ASSETS__img/imagetwo/demo9.png" alt="">
+          <div class="conduction-text1 section5-title1 col-333">景区、博物馆类</div>
+          <div class="conduction-text section5-text">
+            欢迎各大景区、博物馆合作共赢，具体合作方式请发送邮件沟通
+          </div>
+          <div class="conduction-text mb-5 section5-text-red section5-email">
+            <div>邮箱：</div>
+            <div class="col-red">{$site.work_email}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--关于我们-->
+  <div class="section section6">
+    <div class="w-1200 margin-auto container-fluid">
+      <div class="title section6-title mb-20">关于我们</div>
+      <div class="conduction-text1 mb-10 col-333">公司介绍</div>
+      <div class="conduction-text section6-introduce">
+        美景听听（北京）科技有限公司，以用户、技术和内容<span class="font-letter">IP</span>为导向，专注于¨行中¨语音导游领域，致力于提高中国旅行者的体验，并为各大旅行机构提供语音和内容服务。
+      </div>
+      <div class="row contact-c">
+        <div class="col-xs-12 col-sm-7 col-md-7">
+          <!--联系我们-->
+          <div class="flex align-items-center contact-item1 mb-10">
+            <span class="conduction-text3 section6-contact-text">联系我们:</span>
+            <!--微信-->
+            <div id="wx">
+              <div class="position-relative" id="wx-pop" style="display: none">
+                <div class="pop-wx-parent">
+                  <img class="pop-wx-img" src="{$site.kefu}" alt="">
+                </div>
+              </div>
+              <div style="cursor: pointer">
+                <img class="contact-item-img" src="__ASSETS__img/pc-img/contact1.png" alt="">
+              </div>
+            </div>
+            <!--微博-->
+            <div class="section6-weibo">
+              <a href="	{$site.sina}" target="_blank">
+                <img class="contact-item-img" src="__ASSETS__img/pc-img/contact2.png" alt="">
+              </a>
+            </div>
+            <!--邮箱-->
+            <div id="email" style="cursor: pointer">
+              <div class="position-relative" id="email-pop" style="display: none">
+                <div class="pop-email-parent pop-text">{$site.email}</div>
+              </div>
+              <div>
+                <img class="contact-item-img" src="__ASSETS__img/pc-img/contact3.png" alt="email">
+              </div>
+            </div>
+          </div>
+          <!--加入我们-->
+          <div class="flex align-items-center">
+            <span class="conduction-text3 section6-contact-text">加入我们:</span>
+            <!--拉钩-->
+            <div class="mr-30">
+              <a href="{$site.lagou}" target="_blank">
+                <img class="contact-item-img" src="__ASSETS__img/pc-img/contact4.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-5 section6-ewm-p">
+          <div class="flex-1 flex">
+            <!--左-->
+            <div class="flex-1 text-center">
+              <img src="{$site.app_ewm}" alt="" class="section6-ewm mb-10">
+              <div class="conduction-text mb-5">app下载</div>
+            </div>
+            <!--右-->
+            <div class="flex-1 text-center">
+              <img src="{$site.gzh_ewm}" alt="" class="section6-ewm mb-10">
+              <div class="conduction-text mb-5">微信公众号</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section6-cop" id="section6-cop">
+      <div class="section6-cop-top">
+        <div class="w-1200 margin-auto section6-cop-top-p container-fluid">
+          <div class="conduction-text4 section6-cop-title mb-10">合作伙伴</div>
+          <div class="section6-cop-top-img-p1 text-center visible-sm-block visible-md-block visible-lg-block">
+            {volist name="huoban" id="vo" offset="0" length='7'}
+            <img class="section6-cop-top-img" src="{$vo.image}" alt="">
+            {/volist}
+          </div>
+          <div class="section6-cop-top-p2 text-center visible-sm-block visible-md-block visible-lg-block">
+            {volist name="huoban" id="vo" offset="7" length='8'}
+            <img class="section6-cop-top-img" src="{$vo.image}" alt="">
+            {/volist}
+          </div>
+          <div class="row section6-c-mobile visible-xs-block">
+            {volist name="huoban" id="vo"}
+            <div class="col-xs-4 section6-c-mobile-p">
+              <img src="{$vo.image}" alt="">
+            </div>
+            {/volist}
+          </div>
+        </div>
+      </div>
+      <div class="section6-footer flex flex-column align-items-center justify-content-center">
+        <div class="footer-title">{$site.company}　注册地址：{$site.address}</div>
+        <div class="footer-title">本站隶属于{$site.company}，{$site.beian}　<a href="{$site.yyzz}" target="_blank">经营执照</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="video-container" class="flex justify-content-center align-items-center position-relative"
+     style="width:100%;height:100%;background-color: #000000;display: none">
+  <video id="video-player" width="100%" height="100%" src="" controls="controls"></video>
+  <div id="pre-video"></div>
+  <div id="next-video"></div>
+</div>
+<div class="tips">
+  <a href="#firstPage" class="tips-btn"></a>
+</div>
+
+<script src="__ASSETS__js/jquery-3.3.1.min.js"></script>
+<script src="__ASSETS__js/jquery.nicescroll.min.js"></script>
+<script src="__ASSETS__static/swiper-4.4.1/dist/js/swiper.min.js"></script>
+<script src="__LIBS__bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="__ASSETS__static/fullPage.js-master/dist/fullpage.min.js"></script>
+<script src="__ASSETS__static/fullPage.js-master/dist/fullpage.extensions.min.js"></script>
+<script src="__LIBS__fastadmin-layer/dist/layer.js"></script>
+<script>
+  const videoList = {$createJson};
+  $(document).ready(function () {
+    index.init()
+  });
+  let index = {
+    currentIndex: 0,
+    init: function () {
+      this.initData(); // 初始化数据
+      this.tabClick() ;// 菜单的点击事件
+      this.videoClick(); // 弹窗视频的点击事件
+      this.preVideoClick(); // 视频的上一个的点击播放
+      this.nextVideoClick(); // 视频的下一个的点击播放
+      this.wxHover(); // 微信的click事件
+      this.emailHover(); // email的clcik事件
+      this.headerMoreClick(); // 更多的点击事件
+      this.navigationBlankClick(); // 空白区域的点击事件
+      this.magicRoadClick(); // 魔法行程单
+      this.hostEntryClick(); // 主播入口
+    },
+    // 魔法行程单
+    magicRoadClick: function () {
+      $('#magic-road').on('click', function () {
+        window.open($(this).data('url'))
+        return false
+      })
+    },
+    // 主播入口
+    hostEntryClick: function () {
+      $('#host-entry').on('click', function () {
+        window.open($(this).data('url'))
+        return false
+      })
+    },
+    // 更多的点击事件
+    headerMoreClick: function () {
+      $('.header-right').on('click', function () {
+        let navigation = $('.navigation-parent');
+        if (navigation.is(':visible')) {
+          navigation.slideUp() // 隐藏
+        } else {
+          navigation.slideDown() // 显示
+        }
+      })
+    },
+    // 空白处点击消失
+    navigationBlankClick: function () {
+      $('.navigation-parent').on('click', function () {
+        $('.navigation-parent').slideUp() // 隐藏
+      })
+    },
+    wxHover: function () {
+      $('#wx').on('click', function () {
+        if ($('#wx-pop').is(':visible')) {
+          $('#wx-pop').hide(50)
+        } else {
+          $('#wx-pop').show(50)
+        }
+      })
+    },
+    emailHover: function () {
+      // 邮箱mouseover
+      $('#email').on('click', function () {
+        if ($('#email-pop').is(':visible')) {
+          $('#email-pop').hide(50)
+        } else {
+          $('#email-pop').show(50)
+        }
+      })
+    },
+    initData: function () {
+      index.tabInit();
+      index.fullpageInit();
+      index.windowWatch();
+      index.windowResize();
+      // index.section6Height();
+    },
+    // section6Height: function () {
+    //   // fp-tableCell
+    //   let section6 = $('.section6 .fp-tableCell').height()
+    //   let section6Cop = $('#section6-cop').offset().top
+    //   // 计算剩余高度
+    //   let height = section6 * 6 - section6Cop
+    //   $('#section6-cop').height(height)
+    // },
+    preVideoClick: function () {
+      $('#pre-video').on('click', function () {
+        let video = document.getElementById('video-player')
+        index.currentIndex -= 1;
+        if (index.currentIndex < 0) {
+          index.currentIndex = videoList.length - 1
+        }
+        let videoUrl = $('#create-video-' + index.currentIndex).data('video')
+        video.src = videoUrl;
+      })
+    },
+    nextVideoClick: function () {
+      $('#next-video').on('click', function () {
+        let video = document.getElementById('video-player')
+        index.currentIndex += 1;
+        if (index.currentIndex >= videoList.length) {
+          index.currentIndex = 0
+        }
+        let videoUrl = $('#create-video-' + index.currentIndex).data('video')
+        video.src = videoUrl;
+      })
+    },
+    videoClick: function () {
+      $('.create-video').on('click', function () {
+        let video = $(this).data('video')
+        let videoPlayer = document.getElementById('video-player')
+        index.currentIndex = $(this).data('index');
+        if (video) {
+          $('#video-player').attr('src', video)
+          if ($(window).width() > 768) {
+            layer.open({
+              type: 1,
+              title: false,
+              content: $('#video-container'),
+              area: ['80%', '80%'],
+              end: function () {
+                videoPlayer.pause()
+              }
+            })
+          } else {
+            layer.open({
+              type: 1,
+              title: false,
+              content: $('#video-container'),
+              area: ['80%', '40%'],
+              end: function () {
+                videoPlayer.pause()
+              }
+            })
+          }
+        }
+      })
+    },
+    videoAboutPlay: function () {
+      $('#video-about').get(0).play()
+    },
+    videoAboutPause: function () {
+      $('#video-about').get(0).pause()
+    },
+    tabInit: function () {
+      if ($(window).width() > 768) {
+        $('.tab-text:eq(0)').removeClass('col-red')
+      } else {
+        $('.tab-text:eq(0)').addClass('col-red')
+      }
+    },
+    // fullpage插件初始化
+    fullpageInit: function () {
+      let windowWidth = $(window).width()
+
+      $('#fullpage').fullpage({
+        //options here
+        sectionsColor: ['#FFFFFF', '#FFF4F4', '#FFFFFF', '#FFF4F4', '#FFFFFF', '#FFF4F4'],
+        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'lastPage'],
+        navigation: true,
+        menu: '#myMenu',
+        autoScrolling: true,
+        scrollHorizontally: true,
+        slidesNavigation: false,
+        bigSectionsDestination: 'top',
+        licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+        afterResize: function (width, height) {
+          if (width > 768) {
+            $.fn.fullpage.setAutoScrolling(true);
+            $('#fp-nav').show()
+          } else {
+            $.fn.fullpage.setAutoScrolling(false);
+            $('#fp-nav').hide()
+          }
+        },
+        afterLoad: function (origin, destination) {
+          if (destination.index === 0) { // 首屏
+            if (windowWidth > 768) {
+              // 改变indicator位置
+              $('.tab-indicator').hide();
+              $('.tab-indicator:eq(0)').removeClass('display-none').animate({opacity: 'show'}, 100)
+              // 视频播放
+              index.videoAboutPlay()
+            } else {
+              // 改变文字颜色
+              $('.tab-text').removeClass('col-red tab-text-active')
+              $('.tab-text:eq(0)').addClass('col-red tab-text-active')
+              // 停掉视频
+              index.videoAboutPause()
+            }
+            $('.tips').fadeOut()
+          }
+          if (destination.index === 1) { // 第二屏
+            if (windowWidth > 768) {
+              // 改变indicator位置
+              $('.tab-indicator').hide();
+              $('.tab-indicator:eq(1)').removeClass('display-none').animate({opacity: 'show'}, 100)
+            } else {
+              // 改变文字颜色
+              $('.tab-text').removeClass('col-red tab-text-active')
+              $('.tab-text:eq(1)').addClass('col-red tab-text-active')
+            }
+            // 停掉视频
+            index.videoAboutPause()
+            // 回到顶部按钮
+            $('.tips').show()
+          }
+          if (destination.index === 2) { // 第三屏
+            if (windowWidth > 768) {
+              // 改变indicator位置
+              $('.tab-indicator').hide();
+              $('.tab-indicator:eq(2)').removeClass('display-none').animate({opacity: 'show'}, 100)
+            } else {
+              // 改变文字颜色
+              $('.tab-text').removeClass('col-red tab-text-active')
+              $('.tab-text:eq(2)').addClass('col-red tab-text-active')
+            }
+            // 停掉视频
+            index.videoAboutPause()
+            $('.tips').fadeIn()
+          }
+          if (destination.index === 3) { // 第四屏
+            if (windowWidth > 768) {
+              // 改变indicator位置
+              $('.tab-indicator').hide();
+              $('.tab-indicator:eq(3)').removeClass('display-none').animate({opacity: 'show'}, 100)
+            } else {
+              // 改变文字颜色
+              $('.tab-text').removeClass('col-red tab-text-active')
+              $('.tab-text:eq(3)').addClass('col-red tab-text-active')
+            }
+            // 停掉视频
+            index.videoAboutPause()
+            $('.tips').fadeIn()
+          }
+          if (destination.index === 4) { // 第五屏
+            if (windowWidth > 768) {
+              // 改变indicator位置
+              $('.tab-indicator').hide();
+              $('.tab-indicator:eq(4)').removeClass('display-none').animate({opacity: 'show'}, 100)
+            } else {
+              // 改变文字颜色
+              $('.tab-text').removeClass('col-red tab-text-active')
+              $('.tab-text:eq(4)').addClass('col-red tab-text-active')
+            }
+            // 停掉视频
+            index.videoAboutPause()
+            $('.tips').fadeIn()
+          }
+          if (destination.index === 5) { // 第六屏
+            if (windowWidth > 768) {
+              // 改变indicator位置
+              $('.tab-indicator').hide();
+              $('.tab-indicator:eq(5)').removeClass('display-none').animate({opacity: 'show'}, 100)
+            } else {
+              // 改变文字颜色
+              $('.tab-text').removeClass('col-red tab-text-active')
+              $('.tab-text:eq(5)').addClass('col-red tab-text-active')
+            }
+            // 停掉视频
+            index.videoAboutPause()
+            $('.tips').fadeIn()
+          }
+        }
+      });
+      //methods
+      $.fn.fullpage.setAllowScrolling(true);
+    },
+    // 检测窗口改变fullpage的属性
+    windowWatch: function () {
+      if ($(window).width() > 768) {
+        $.fn.fullpage.setAutoScrolling(true);
+        $('#fp-nav').show()
+      } else {
+        $.fn.fullpage.setAutoScrolling(false);
+        $('#fp-nav').hide()
+      }
+    },
+    // 检测窗口拉伸事件
+    windowResize: function () {
+      $(window).resize(function () {
+        if ($(window).width() > 768) {
+          $('.tab-text:eq(0)').removeClass('col-red')
+        } else {
+          $('.tab-text:eq(0)').addClass('col-red')
+        }
+      })
+    },
+    tabClick: function () {
+      $('#myMenu li a').on('click', function () {
+        if ($(window).width() > 768) {
+          // 改变indicator位置
+          // $('.tab-indicator').hide()
+          // $(this).find('.tab-indicator').removeClass('display-none').animate({opacity: 'show'}, 300)
+        } else {
+          // 改变文字颜色
+          $('.tab-text').removeClass('col-red')
+          $(this).find('.tab-text').addClass('col-red')
+          // 改变文字大小
+          $('.tab-text').removeClass('tab-text-active')
+          $(this).find('.tab-text').addClass('tab-text-active')
+        }
+      })
+    }
+  }
+</script>
+</body>
+</html>
