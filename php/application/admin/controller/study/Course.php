@@ -1,32 +1,30 @@
 <?php
 
-namespace app\admin\controller\user;
+namespace app\admin\controller\study;
 
 use app\common\controller\Backend;
 
 /**
- * 会员管理
+ * 课程管理
  *
- * @icon fa fa-user
+ * @icon fa fa-circle-o
  */
-class User extends Backend
+class Course extends Backend
 {
     
     /**
-     * User模型对象
-     * @var \app\admin\model\User
+     * Course模型对象
+     * @var \app\admin\model\Course
      */
     protected $model = null;
 
     public function _initialize()
     {
         parent::_initialize();
-        $this->model = new \app\admin\model\User;
-//        pre($this->model->getBranchList());exit;
-        // 返回部分分类
-        $this->view->assign("branchList", $this->model->getBranchList());
-        // 返回性别
-        $this->view->assign("genderList", $this->model->getGenderList());
+        $this->model = new \app\admin\model\Course;
+
+        //取文件类型类别
+        $this->view->assign("filetypeList", $this->model->getFiletypeList());
     }
     
     /**
@@ -54,13 +52,13 @@ class User extends Backend
             }
             list($where, $sort, $order, $offset, $limit) = $this->buildparams();
             $total = $this->model
-                    ->with(['branch'])
+                    ->with(['subject'])
                     ->where($where)
                     ->order($sort, $order)
                     ->count();
 
             $list = $this->model
-                    ->with(['branch'])
+                    ->with(['subject'])
                     ->where($where)
                     ->order($sort, $order)
                     ->limit($offset, $limit)

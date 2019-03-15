@@ -5,12 +5,12 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
             // 初始化表格参数配置
             Table.api.init({
                 extend: {
-                    index_url: 'user/user/index',
-                    add_url: 'user/user/add',
-                    edit_url: 'user/user/edit',
-                    del_url: 'user/user/del',
-                    multi_url: 'user/user/multi',
-                    table: 'user',
+                    index_url: 'study/course/index',
+                    add_url: 'study/course/add',
+                    edit_url: 'study/course/edit',
+                    del_url: 'study/course/del',
+                    multi_url: 'study/course/multi',
+                    table: 'course',
                 }
             });
 
@@ -20,25 +20,24 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
             table.bootstrapTable({
                 url: $.fn.bootstrapTable.defaults.extend.index_url,
                 pk: 'id',
-                sortName: 'id',
+                sortName: 'weigh',
                 columns: [
                     [
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
-                        {field: 'username', title: __('Username')},
-                        {field: 'password', title: __('Password')},
-                        {field: 'mobile', title: __('Mobile')},
+                        {field: 'subject_id', title: __('Subject_id')},
+                        {field: 'filetype', title: __('Filetype'), searchList: {"1":__('Filetype 1'),"2":__('Filetype 2'),"3":__('Filetype 3')}, formatter: Table.api.formatter.normal},
+                        {field: 'title', title: __('Title')},
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         {field: 'updatetime', title: __('Updatetime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
-                        {field: 'token', title: __('Token')},
-                        // {field: 'branch_id', title: __('Branch_id')},
-                        {field: 'role', title: __('Role')},
-                        {field: 'gender', title: __('Gender'), searchList: {"1":__('Gender 1'),"2":__('Gender 2')}, formatter: Table.api.formatter.normal},
-                        // {field: 'branch.id', title: __('Branch.id')},
-                        {field: 'branch.title', title: __('Branch.title')},
-                        // {field: 'branch.createtime', title: __('Branch.createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
-                        // {field: 'branch.updatetime', title: __('Branch.updatetime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
-                        // {field: 'branch.weigh', title: __('Branch.weigh')},
+                        {field: 'mp3file', title: __('Mp3file')},
+                        {field: 'videofile', title: __('Videofile')},
+                        {field: 'weigh', title: __('Weigh')},
+                        // {field: 'subject.id', title: __('Subject.id')},
+                        {field: 'subject.title', title: __('Subject.title')},
+                        // {field: 'subject.createtime', title: __('Subject.createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
+                        // {field: 'subject.updatetime', title: __('Subject.updatetime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
+                        // {field: 'subject.weigh', title: __('Subject.weigh')},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]

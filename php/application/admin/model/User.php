@@ -3,87 +3,58 @@
 namespace app\admin\model;
 
 use think\Model;
+use app\admin\model\Branch as BranchModel;
 
 class User extends Model
 {
-
     // 表名
     protected $name = 'user';
+    
     // 自动写入时间戳字段
     protected $autoWriteTimestamp = 'int';
+
     // 定义时间戳字段名
     protected $createTime = 'createtime';
     protected $updateTime = 'updatetime';
+    
     // 追加属性
     protected $append = [
-        'prevtime_text',
-        'logintime_text',
-        'jointime_text'
+        'gender_text'
     ];
+    
 
-    protected static function init()
-    {
-        self::beforeUpdate(function ($row) {
-            $changed = $row->getChangedData();
-            //如果有修改密码
-            if (isset($changed['password'])) {
-                if ($changed['password']) {
-                    $salt = \fast\Random::alnum();
-                    $row->password = \app\common\library\Auth::instance()->getEncryptPassword($changed['password'], $salt);
-                    $row->salt = $salt;
-                } else {
-                    unset($row->password);
-                }
-            }
-        });
-    }
-
+    
     public function getGenderList()
     {
-        return ['1' => __('Male'), '0' => __('Female')];
+        return ['1' => __('Gender 1'),'2' => __('Gender 2')];
+    }     
+
+
+    public function getGenderTextAttr($value, $data)
+    {        
+        $value = $value ? $value : (isset($data['gender']) ? $data['gender'] : '');
+        $list = $this->getGenderList();
+        return isset($list[$value]) ? $list[$value] : '';
     }
 
-    public function getStatusList()
+    public function getBranchList($index = null)
     {
-        return ['normal' => __('Normal'), 'hidden' => __('Hidden')];
+      $list =  BranchModel::all();
+      $arr = [];
+      if ($list) {
+        foreach ($list as $key => $val) {
+          $arr[$val['id']] = $val['title'];
+        }
+      }
+      if ($index == null) {
+        array_key_exists($index, $arr) ? $arr[$index]: $arr;
+      }
+      return $arr;
     }
 
-    public function getPrevtimeTextAttr($value, $data)
+
+    public function branch()
     {
-        $value = $value ? $value : $data['prevtime'];
-        return is_numeric($value) ? date("Y-m-d H:i:s", $value) : $value;
+        return $this->belongsTo('Branch', 'branch_id', 'id', [], 'LEFT')->setEagerlyType(0);
     }
-
-    public function getLogintimeTextAttr($value, $data)
-    {
-        $value = $value ? $value : $data['logintime'];
-        return is_numeric($value) ? date("Y-m-d H:i:s", $value) : $value;
-    }
-
-    public function getJointimeTextAttr($value, $data)
-    {
-        $value = $value ? $value : $data['jointime'];
-        return is_numeric($value) ? date("Y-m-d H:i:s", $value) : $value;
-    }
-
-    protected function setPrevtimeAttr($value)
-    {
-        return $value && !is_numeric($value) ? strtotime($value) : $value;
-    }
-
-    protected function setLogintimeAttr($value)
-    {
-        return $value && !is_numeric($value) ? strtotime($value) : $value;
-    }
-
-    protected function setJointimeAttr($value)
-    {
-        return $value && !is_numeric($value) ? strtotime($value) : $value;
-    }
-
-    public function group()
-    {
-        return $this->belongsTo('UserGroup', 'group_id', 'id', [], 'LEFT')->setEagerlyType(0);
-    }
-
 }

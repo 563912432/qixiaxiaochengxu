@@ -5,6 +5,17 @@ use app\common\model\Category;
 use fast\Form;
 use fast\Tree;
 use think\Db;
+/**
+ * 打印调试函数
+ * @param $content
+ * @param $is_die
+ */
+function pre($content, $is_die = true)
+{
+  header('Content-type: text/html; charset=utf-8');
+  echo '<pre>' . print_r($content, true);
+  $is_die && die();
+}
 if (!function_exists('getAdPosition')) {
 	function getAdPosition() {
 		$position = Ad::getPosition();
