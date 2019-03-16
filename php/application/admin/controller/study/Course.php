@@ -23,7 +23,9 @@ class Course extends Backend
         parent::_initialize();
         $this->model = new \app\admin\model\Course;
 
-        //取文件类型类别
+        // 取科目分类
+        $this->view->assign("subjectList", $this->model->getSubjectList());
+        // 取文件类型类别
         $this->view->assign("filetypeList", $this->model->getFiletypeList());
     }
     

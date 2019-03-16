@@ -2,112 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fab37949-c453-43ba-b9ac-eea626af73ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/controller/user/Group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/controller/user/Rule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/controller/user/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/model/UserGroup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/model/UserRule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/view/user/group/add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/view/user/group/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/view/user/group/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/view/user/rule/add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/view/user/rule/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/view/user/rule/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/view/user/user/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/application/admin/view/user/user/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/3b04734ce1b1a94866ee90548a9855ea.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/4a999f159b317a028c753ffa31aa45f5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/4c7616dd86fc4912ec162660db1c87c1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/50585ee4126313bc9b39320bd9b9cc3e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/505e23910a8541e7f58c7f2b95756874.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/5b4e015567fd4132196d880c8b57c13b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/69c4b666f4fc5788659cd74395794dd8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/6a3dc914fa92c23a2c5c4f5c7d82f60d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/85acf326e2040fcc8bd88bf72ad5b35a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/bd052eb6bc1215fd446bd79a7e2b5d69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/ebc0edd2911ca5abe6e876a0fe07c8fe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181017/f639ef9dd0dac06bfcd75dde863a4d89.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181018/5c7558ce87437c15d062a78f1dba1ca5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181018/8c779b781af234156525730fceb83e55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/008f26eeb4faec61376b479356b85a81.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/04f553c62d2b374db43dc3694c7e0499.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/505e23910a8541e7f58c7f2b95756874.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/5434a232afbdb9db40847f165a5e00d6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/5c7558ce87437c15d062a78f1dba1ca5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/6a3dc914fa92c23a2c5c4f5c7d82f60d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/6d6f27df4c86af2657d4aa698fd3723d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/70d759923b63173c33ca4e6fb70f030f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/75c4bb111fc8590ca305daa15506087e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/8661fe421e76234988330d8151f44dfb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/8cf5009a8d99c62653b95f86c90b71b4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/a804ab7d15cf8c7c98869f74c080e7fe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/b27d629692d82cc2050a207dc4d4de47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/bd6082d8b2e288de1634941dbb47d368.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/c9e865e3594f4737cdb94f2477468b44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/d5088818839a033b8d973b63cf6eca6e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181019/dd71dfcf2b05aaa9881148297ff373e9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181020/a8cb17df631f629b65b7a1af95d13443.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181020/e5da3fdd2086b3b7c674fd569d1c3e4a.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/04f553c62d2b374db43dc3694c7e0499.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/082a1ac48fc4328b82ed523b39dab47c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/17f31680f4a009cc12b44830c205edbd.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/1a4a89a8a35d3014d0ed2d70566bea77.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/1c5baba398b48bac264586af5bdecb67.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/1d8b85575a535ccbb67f768d2e7f7a5f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/2368962cca67e25403a9a8c0e6d2d829.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/244466950bcd07d9bcb472b07b4ac4d1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/254a687f70e5be4e353283425a5d62cc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/279d63a58df13c6a350ed37944570c27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/30e55a0e8d024786ce987763b7d7ff7c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/32337b1602e3c9f73c823b58b7110a22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/401c863fe33046ff0b3105c7332ce989.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/4299d0f6f4cbc45e224f5668d92985a7.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/4b9eae7e2f39ccf6624d47bdbb3947ff.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/57bc91cff4cff05ec69de1b2ce734adb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/5b47fa76f37310978fa6691e1cbc307f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/62b11dc23d130e3b1ea35b37ff6276cb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/6c5fa8438b0cefaace80ad60e3d1e0ef.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/6d6f27df4c86af2657d4aa698fd3723d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/6e1de257ff89ad7086aa5be6e2ab90ca.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/7a421eed7a3346f36ff3a26b4ec97051.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/7bdff5555113ac6e2218d8b98075894b.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/9616f390ea45d04eb69a9685de6c3f3c.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/a6d20193e9a817f8e930128eda07a8e9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/ab7786b5b9489e49c9afd1d64e3a9cf2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/b6515a5c060c6a645da29ea0343af566.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/c2b3c7afb9e32e8fb7a24440c9ffc034.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/c48d2447b1662f89fe2102c515789cf8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/c76ab7782dc78fc3c273863ce805256d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/c920be9eaa46f8061de8b64f1eeb0088.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/cda5c31296edeeb69444e9c8d8cd128f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/d9cb77bebb4f8f93a370b86c17fa4e31.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/e01ae81b6b2dc308165cdc27ab433cce.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/e6f385b062541b19020082d6c5665e28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/f07350db7df46f1cf990a0ddb35768ce.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/f494f5461281055ba7a10f02b36dd6fb.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/fad0e1777ce82f8f4dfc2bdfcd467e02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181022/fdeaecfec77dc08440022fba2e70f179.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181023/6d6f27df4c86af2657d4aa698fd3723d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181023/e0dcc3688713a5b3918adadae6ef2148.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181023/e5da3fdd2086b3b7c674fd569d1c3e4a.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181101/3b02c52001bacf57d895ee1a9b251e6a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181101/7493c130bfb7a7ecc60d82185128bd65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181101/7e711f02ad639ada0352d2d70f80ed8f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181103/3e204fc2c69f5af92641a3634843f64b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181103/44d88f0fc23efd19616c82a1d4a56a0b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181103/5bbb6fc8be30db1495779c0179b0bc95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181103/614353c4ec183c94d4ed63eefceff607.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181103/62b11dc23d130e3b1ea35b37ff6276cb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181103/69fb8adab9b5a2d42b87b29a674a5bb4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181103/9dba5f98fb4040429aa5d1efe7d4e48e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181103/a3407e7225a186643129475369dcc592.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/public/uploads/20181103/d5a01723b3a49fdf0e1419b1aa9478d7.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/application/admin/common.php" afterPath="$PROJECT_DIR$/php/application/admin/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/application/admin/lang/zh-cn/user/user.php" afterPath="$PROJECT_DIR$/php/application/admin/lang/zh-cn/user/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/application/admin/model/User.php" afterPath="$PROJECT_DIR$/php/application/admin/model/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/public/assets/js/addons.js" afterPath="$PROJECT_DIR$/php/public/assets/js/addons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/public/assets/js/backend/user/user.js" afterPath="$PROJECT_DIR$/php/public/assets/js/backend/user/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/application/admin/config.php" afterPath="$PROJECT_DIR$/php/application/admin/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/application/admin/controller/study/Course.php" afterPath="$PROJECT_DIR$/php/application/admin/controller/study/Course.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/application/admin/model/Course.php" afterPath="$PROJECT_DIR$/php/application/admin/model/Course.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/application/admin/view/study/course/add.html" afterPath="$PROJECT_DIR$/php/application/admin/view/study/course/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/application/admin/view/study/course/edit.html" afterPath="$PROJECT_DIR$/php/application/admin/view/study/course/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/public/assets/js/backend/study/course.js" afterPath="$PROJECT_DIR$/php/public/assets/js/backend/study/course.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -121,18 +22,30 @@
       <file leaf-file-name="Course.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/application/admin/model/Course.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="364">
+              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+              <folding>
+                <element signature="e#35#51#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/application/admin/model/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Course.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/application/admin/controller/study/Course.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="-820">
+              <caret line="26" column="71" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -141,8 +54,28 @@
       <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/application/admin/view/study/course/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+            <state relative-caret-position="196">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/public/assets/js/backend/study/course.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/application/admin/view/study/course/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="76" lean-forward="false" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -180,13 +113,16 @@
         <option value="$PROJECT_DIR$/php/application/admin/view/user/user/edit.html" />
         <option value="$PROJECT_DIR$/php/application/admin/view/user/user/index.html" />
         <option value="$PROJECT_DIR$/php/application/admin/view/study/subject/index.html" />
-        <option value="$PROJECT_DIR$/php/application/admin/model/Course.php" />
-        <option value="$PROJECT_DIR$/php/application/admin/view/study/course/add.html" />
         <option value="$PROJECT_DIR$/php/application/admin/view/study/course/index.html" />
-        <option value="$PROJECT_DIR$/php/public/assets/js/backend/study/course.js" />
         <option value="$PROJECT_DIR$/php/public/assets/js/addons.js" />
         <option value="$PROJECT_DIR$/php/application/admin/lang/zh-cn/study/course.php" />
         <option value="$PROJECT_DIR$/php/application/admin/controller/study/Course.php" />
+        <option value="$PROJECT_DIR$/php/application/admin/view/study/course/edit.html" />
+        <option value="$PROJECT_DIR$/php/application/admin/model/Course.php" />
+        <option value="$PROJECT_DIR$/php/application/admin/view/common/script.html" />
+        <option value="$PROJECT_DIR$/php/application/admin/config.php" />
+        <option value="$PROJECT_DIR$/php/application/admin/view/study/course/add.html" />
+        <option value="$PROJECT_DIR$/php/public/assets/js/backend/study/course.js" />
       </list>
     </option>
   </component>
@@ -238,7 +174,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,36 +190,35 @@
               <item name="qixia" type="b2602c69:ProjectViewProjectNode" />
               <item name="qixia" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="qixia" type="b2602c69:ProjectViewProjectNode" />
               <item name="qixia" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="qixia" type="b2602c69:ProjectViewProjectNode" />
               <item name="qixia" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uploads" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="qixia" type="b2602c69:ProjectViewProjectNode" />
               <item name="qixia" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="study" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uploads" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="20190316" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,27 +254,28 @@
       <updated>1552544331547</updated>
       <workItem from="1552544335020" duration="1000" />
       <workItem from="1552544361928" duration="4999000" />
-      <workItem from="1552614420037" duration="16883000" />
+      <workItem from="1552614420037" duration="17160000" />
+      <workItem from="1552694748197" duration="5052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21883000" />
+    <option name="totallyTimeSpent" value="27212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22596154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -361,67 +296,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/application/admin/controller/Dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/controller/user/Group.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/controller/Branch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/model/Branch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/controller/user/Branch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/view/layout/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/application/admin/view/common/control.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-672">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/view/common/script.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -429,7 +307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -437,7 +314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="24" column="11" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="24" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -445,7 +321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1596">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,7 +328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,7 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,7 +374,7 @@
         <state relative-caret-position="364">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="e#7#30#0#PHP" expanded="true" />
+            <element signature="e#7#30#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -511,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1148">
           <caret line="41" column="78" lean-forward="true" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2136">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,22 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/view/user/branch/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/view/user/user/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -579,19 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/view/study/subject/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/application/admin/view/user/user/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="32" column="91" lean-forward="false" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,33 +442,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="e#35#51#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/view/study/course/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/public/uploads/20190315/bd6747932e6f20b8f1432b7c19a68c8a.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/uploads/20190315/bd6747932e6f20b8f1432b7c19a68c8a.gif" />
     <entry file="file://$PROJECT_DIR$/php/public/uploads/20190314/77c39c508914097dbd146250910a8a64.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -635,7 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,12 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44980">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1552644650354" expanded="true" signature="7041:7048" ph="×" />
-            <marker date="1552644650354" expanded="true" signature="175895:175924" ph="..." />
-            <marker date="1552644650354" expanded="true" signature="214868:214874" ph=" " />
-            <marker date="1552644650354" expanded="true" signature="217512:217526" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,7 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2184">
           <caret line="78" column="66" lean-forward="false" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,15 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/public/assets/js/backend/study/course.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="100" lean-forward="false" selection-start-line="0" selection-start-column="100" selection-end-line="0" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-504">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7736">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1596">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,30 +539,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/view/study/course/add.html">
+    <entry file="file://$PROJECT_DIR$/php/application/admin/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/application/admin/model/Course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="552">
+          <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/application/admin/controller/study/Course.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="-820">
+          <caret line="26" column="71" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/model/Course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="e#35#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/view/user/user/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/view/user/branch/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/view/study/subject/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4284">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/view/common/script.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/view/study/course/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/assets/js/backend/ad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/assets/js/fast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6966">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/view/study/course/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="76" lean-forward="false" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/application/admin/view/study/course/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/assets/js/backend/study/course.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           <folding />
         </state>
       </provider>
