@@ -1,0 +1,79 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-type" data-rule="required" class="form-control selectpicker" name="row[type]">
+                {foreach name="typeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.type"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Subject_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select  id="c-subject_id" data-rule="required" class="form-control selectpicker" name="row[subject_id]">
+                {foreach name="subjectList" item="vo"}
+                <option value="{$key}" {in name="key" value=""}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+            <!--<input id="c-subject_id" data-rule="required" data-source="subject/index" class="form-control selectpage form-control" name="row[subject_id]" type="text" value="{$row.subject_id}">-->
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-title" data-rule="required" class="form-control  form-control editor" rows="5" name="row[title]" cols="50">{$row.title}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('OptionA')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-option-A" class="form-control  form-control editor" rows="5" name="option[A]" cols="50">{$row.optionA}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('OptionB')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-option-B" class="form-control  form-control editor" rows="5" name="option[B]" cols="50">{$row.optionB}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('OptionC')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-option-C" class="form-control  form-control editor" rows="5" name="option[C]" cols="50">{$row.optionC}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('OptionD')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-option-D" class="form-control  form-control editor" rows="5" name="option[D]" cols="50">{$row.optionD}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Answer')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-answer" class="form-control  form-control" rows="5" name="row[answer]" cols="50">{$row.answer}</textarea>
+        </div>
+        <div class="col-sm-offset-2 col-sm-8">
+            <span style="color: red">单选题答案请填写大写字母A或B或C或D；多选题答案请用英文逗号分隔，如A,B,C,D；判断题请填写A或B，A代表正确，B代表错误</span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Parse')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-parse" class="form-control  form-control" rows="5" name="row[parse]" cols="50">{$row.parse}</textarea>
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
