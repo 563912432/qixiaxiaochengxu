@@ -22,7 +22,12 @@ class Tk extends Model
     protected $append = [
         'type_text'
     ];
-    
+
+    public $typeMap = [
+        'danxuan' => 1,
+        'duoxuan' => 2,
+        'panduan' => 3
+    ];
 
     
     public function getTypeList()
@@ -37,9 +42,6 @@ class Tk extends Model
         $list = $this->getTypeList();
         return isset($list[$value]) ? $list[$value] : '';
     }
-
-
-
 
     public function subject()
     {
@@ -60,5 +62,20 @@ class Tk extends Model
         array_key_exists($index, $arr) ? $arr[$index]: $arr;
       }
       return $arr;
+    }
+    /**随机取题号
+     * @param $type     题型
+     * @param $num   取题数量
+     * @param $tid
+     */
+    public function autoMakeTiId($num, $type, $subject_id){
+      $where = [];
+      if(! empty($type)) $where['type'] = ['in', $type];
+      if(! empty($cate_id)) $where['subject_id'] = ['in', $subject_id];
+      $tkids = $this->where($where)->column('id');
+      $tkids = $tkids?$tkids:[];
+      if(count($tkids) < $num) return [];
+      shuffle($tkids);
+      return array_slice($tkids, 0, $num);  //截取指定数量的题
     }
 }

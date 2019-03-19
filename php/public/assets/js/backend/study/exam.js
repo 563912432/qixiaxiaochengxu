@@ -25,19 +25,55 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     [
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
+                        {field: 'title', title: __('Title')},
                         // {field: 'subject_id', title: __('Subject_id')},
                         // {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         // {field: 'updatetime', title: __('Updatetime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         {field: 'start', title: __('Start')},
                         {field: 'end', title: __('End')},
                         {field: 'timelong', title: __('Timelong')},
-                        {field: 'title', title: __('Title')},
                         // {field: 'subject.id', title: __('Subject.id')},
                         {field: 'subject.title', title: __('Subject.title')},
                         // {field: 'subject.createtime', title: __('Subject.createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         // {field: 'subject.updatetime', title: __('Subject.updatetime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         // {field: 'subject.weigh', title: __('Subject.weigh')},
-                        {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
+                        {
+                            field: 'operate',
+                            title: __('Operate'),
+                            table: table,
+                            events: Table.api.events.operate,
+                            buttons: [
+                              {
+                                name:'edit',
+                                text:'',
+                                title:'编辑',
+                                icon: 'fa fa-pencil',
+                                extend: 'data-toggle="tooltip"',
+                                classname: 'btn btn-xs btn-success btn-editone',
+                                url: 'study/exam/edit',
+                                hidden:function(row){
+                                  if(row.overtime === 1){
+                                    return true;
+                                  }
+                                }
+                              },
+                              {
+                                name:'del',
+                                text:'',
+                                title:'删除',
+                                icon: 'fa fa-trash',
+                                extend: 'data-toggle="tooltip"',
+                                classname: 'btn btn-xs btn-danger btn-delone',
+                                url: 'study/exam/del',
+                                hidden:function(row){
+                                  if(row.overtime === 1){
+                                    return true;
+                                  }
+                                }
+                              }
+                            ],
+                            formatter: Table.api.formatter.operate
+                        }
                     ]
                 ]
             });
